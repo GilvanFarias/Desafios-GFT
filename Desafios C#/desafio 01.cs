@@ -6,8 +6,8 @@ class Desafio{
 {
 
   string[] entrada = Console.ReadLine().Split(" ");
-  double velocidade = double.Parse(entrada[0]);
-  double tempo = double.Parse(entrada[1]);
+  double velocidade = double.Parse(entrada[0]); //convertendo para double o indice [0] do array entrada
+  double tempo = double.Parse(entrada[1]); //convertendo para double o indice [1] do array entrada
   double distancia = velocidade * tempo ;
 
   double litros = distancia / 12;
