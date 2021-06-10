@@ -5,7 +5,7 @@ class Desafio{
   public static void Main()
 {
 
-  string[] entrada = Console.ReadLine().Split(" ");
+  string[] entrada = Console.ReadLine().Split(" "); //separar parte de uma string exemplo: string "10 85" a gente vai ter os valores "10" e "85".
   double velocidade = double.Parse(entrada[0]); //convertendo para double o indice [0] do array entrada
   double tempo = double.Parse(entrada[1]); //convertendo para double o indice [1] do array entrada
   double distancia = velocidade * tempo ;
